@@ -10,8 +10,9 @@ export HOME=/drone
 df -h
 
 free -m
-
-apt-get install -y neofetch
+apt-get update
+apt-get install -y neofetch screenfetch
 
 neofetch
 
+screenfetch
