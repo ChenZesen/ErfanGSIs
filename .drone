@@ -8,3 +8,10 @@ export SUBARCH=arm64
 export HOME=/drone
 
 df -h
+
+free -m
+
+apt-get install -y neofetch
+
+neofetch
+
